@@ -33,7 +33,7 @@ class ImageSubscriber(Node):
 
     def load_model(self):
         self.get_logger().info('Loading cone detector model')
-        self.model = YOLO("/home/user/ros2_ws/data/cone-detector-yolov8.pt")
+        self.model = YOLO("/home/user/ros2_ws/src/my_bot/data/cone-detector-yolov8.pt")
         self.get_logger().info('Model loaded!')
 
 def main(args=None):
