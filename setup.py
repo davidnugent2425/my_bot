@@ -37,7 +37,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'image_subscriber = my_bot.image_subscriber:main',
+            'perception = my_bot.perception:main',
         ],
     },
 )
